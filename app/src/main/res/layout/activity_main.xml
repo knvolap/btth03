@@ -55,6 +55,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/Login"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/colorAccent"
@@ -86,6 +87,7 @@
             android:layout_width="140dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
+            android:id="@+id/btLogin"
             android:background="@drawable/stylebutton"
             android:drawableRight="@drawable/ic_baseline_call_missed_outgoing_24"
             android:text="Login In"

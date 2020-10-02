@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#CB9AD9"
+        android:gravity="center"
+        android:text="Thông tin của bạn"
+        android:textColor="#34473D"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#D0EFF2"
+        android:gravity="left"
+
+        android:textColor="#34473D"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textViewA"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#D0EFF2"
+        android:gravity="center_horizontal"
+        android:textColor="#34473D"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D0EFF2">
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+            android:id="@+id/textView2"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:gravity="left"
+            android:text="      Họ và tên : "
+
+            android:textColor="#34473D"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="#D0EFF2"
+                android:gravity="left"
+                android:text="      Số điện thoại : "
+                android:textColor="#34473D"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="#D0EFF2"
+                android:gravity="left"
+                android:text="      Địa chỉ : "
+                android:textColor="#34473D"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="#D0EFF2"
+                android:gravity="left"
+                android:text="      Mã sinh viên : "
+                android:textColor="#34473D"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#D0EFF2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:textSize="20dp"
+                android:text="      Trần Võ Lập"
+                android:textColor="#34473D"></TextView>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Lưu thông tin" />
+
+</LinearLayout>
